@@ -1,0 +1,8 @@
+Si pas de correspondance => enregistré screen => à traiter plus tard nouveau template=>définir dans le screen ou cliquer automatiquement
+trouver position des cristaux => se déplacer => cliquer dessus
+Creation boucle reward cristaux
+Creation boucle achat de terrain => positionnement? clique random dans array?
+
+
+BUG DE TIMING QUAND SORTIE LOOP SHOP APRES CRASH
+
