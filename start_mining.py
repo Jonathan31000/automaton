@@ -29,7 +29,7 @@ def task_one(device_name, capture_name, port):
         # Calcul de l'heure actuelle et du délai restant
         now = datetime.now()
         elapsed_time = (now - start_time).total_seconds()
-        delay = max(0, 1230 - elapsed_time)  # Délai restant en secondes
+        delay = max(0, 1300 - elapsed_time)  # Délai restant en secondes
         # Lancer le redémarrage de la tâche après le délai calculé
         threading.Timer(delay, task_one, args=(device_name, capture_name, port)).start()
 """def task_one(device_name, capture_name, port):
